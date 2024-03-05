@@ -6,4 +6,6 @@ namespace MvcMovie.Models;
     {
         public string EmployeeId { get; set; }
         public int Age { get; set; }
+        public string Tennhanvien { get; set; }
+        public int luong { get; set; }
     }
