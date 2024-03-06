@@ -2,10 +2,10 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace MvcMovie.Models;
-    public class Employee : Persion
+    public class Employee 
     {
-        public string EmployeeId { get; set; }
-        public int Age { get; set; }
+        public string Manhanvien { get; set; }
+        public int Tuoi { get; set; }
         public string Tennhanvien { get; set; }
-        public int luong { get; set; }
+        public float Luong { get; set; }
     }

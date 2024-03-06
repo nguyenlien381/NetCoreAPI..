@@ -2,7 +2,12 @@ namespace MvcMovie.Models
 {
     public class Sinhvien 
     {
-        public string FullName { get; set; }
+        public Sinhvien(string fullName) 
+        {
+            this.FullName = fullName;
+   
+        }
+                public string FullName { get; set; }
         public int Age { get; set; }
     }
 }
