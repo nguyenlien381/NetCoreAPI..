@@ -13,7 +13,7 @@ namespace MvcMovie.Controllers
         [HttpPost]
         public IActionResult dulieu(Sinhvien sv)
         {
-            string strOutput  = "xin chao" + sv.FullName + "-" + sv.Age ;
+            string strOutput  = "xin chao" + sv.Hoten + "-" + sv.Diachi + "-" + sv.Tuoi + "-" + sv.Sodienthoai;
             ViewBag.dulieu = strOutput ;
             return View();
         }
